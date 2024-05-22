@@ -1,0 +1,35 @@
+# packages for Probability, Statistics, ML, NLP and MLOps
+# jupyter notebooks
+jupyter == 1.0.0
+
+# main packages
+numpy == 1.24.3
+pandas == 2.0.1
+scipy == 1.10.1
+matplotlib == 3.7.1
+seaborn == 0.12.2
+scikit-learn == 1.2.2
+xgboost == 1.7.5
+optuna == 3.1.1
+shap == 0.41.0 # depends on numba which doesn't work on 3.11 yet
+nltk == 3.8.1
+
+# add-ons
+openpyxl
+ffmpeg
+ipympl
+celluloid
+wordcloud
+
+# mlops
+flask
+waitress
+fastapi
+uvicorn
+mlflow
+
+# formatting, type hinting, linting and testing (useful for all projects)
+black
+mypy
+ruff
+pytest
